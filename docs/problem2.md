@@ -3,7 +3,7 @@
 ## Problem 2 - Add Two Numbers
 
 ### Solution Description
-Given two linked lists `l1` and `l2`, the solution simulates digit-by-digit addition as in elementary arithmetic. At each step, we sum the current digits from both lists along with a carry from the previous step. A dummy head node is used to simplify list construction. We iterate while at least one list has remaining nodes or there is a non-zero carry. If a list is exhausted, its value is treated as 0.
+Given two linked lists `l1` and `l2`, the solution simulates digit-by-digit addition as in elementary arithmetic. At each step, we sum the current digits from both lists along with a carry from the previous step. A dummy head node is used to simplify **List Construction**. We iterate while at least one list has remaining nodes or there is a non-zero carry. If a list is exhausted, its value is treated as 0.
 
 At each iteration:
 * Compute the sum of the two digits and the carry

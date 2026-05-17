@@ -10,6 +10,6 @@ For each element `num`, we check if it exists as a key in our dictionary.
 * **If it doesn't exist**: We calculate the complement `target - num` and store it as a key, with the current `idx` as its value. This "primes" the dictionary for future matches.
 
 ### Complexities and Clarity
-* **Space Complexity**: The algorithm has space complexity of `O(n)`, where `n` is the length of the input array, because we can store up to `n` elements in the dictionary.
-* **Time Complexity**: The algorithm has time complexity of `O(n)`, where `n` is the length of the input array, because we traverse the list once and perform constant-time lookups.
+* **Space Complexity**: The algorithm has space complexity of $O(n)$, where $n$ is the length of the input array, because in the worst case we can store up to $n$ elements in the dictionary.
+* **Time Complexity**: The algorithm has time complexity of $O(n)$, where $n$ is the length of the input array, because we traverse the list once and perform constant-time lookups.
 * The implementation prioritizes readability by using clear variable names (`num`, `idx`) and straightforward control flow. It leverages Python’s dictionary for efficient lookups, avoiding nested loops and keeping the solution concise.

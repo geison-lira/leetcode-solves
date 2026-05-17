@@ -12,6 +12,6 @@ At each iteration:
 * Link the new node to the result list, and advance the `curr` pointer.
 
 ### Complexities and Clarity
-* **Space Complexity**: The algorithm has space complexity of `O(max(m, n))`, where `m` is the size of the first list and `n` is the size of the second list, because we create a new list to store the sum digits.
-* **Time Complexity**: The algorithm has time complexity of `O(max(m, n))`, where `m` is the size of the first list and `n` is the size of the second list, because we traverse each list once.
+* **Space Complexity**: The algorithm has space complexity of $O(max(m, n))$, where $m$ is the size of the first list and $n$ is the size of the second list, because we create a new list to store the sum digits.
+* **Time Complexity**: The algorithm has time complexity of $O(max(m, n))$, where $m$ is the size of the first list and $n$ is the size of the second list, because we traverse each list once.
 * The implementation prioritizes readability by using clear variable names (`curr`, `carry`) and straightforward control flow. It also leverages Python’s concise conditional expressions (e.g., `l1.val if l1 else 0`) to handle edge cases cleanly without extra branching.

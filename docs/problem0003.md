@@ -13,6 +13,6 @@ To optimize window adjustments, a Python Dictionary (`tracking`) keeps track of 
 After checking for duplicates, the character's index is updated in `tracking`. The `max_len` is then recalculated by taking the maximum of its current value and the current window size (`end_idx - start_idx + 1`).
 
 ### Complexities and Clarity
-* **Space Complexity**: The algorithm has space complexity of `O(min(m, n))`, where `n` is the length of the input string and `m` is the size of the alphabet, because we can store up to `n` or `m` elements in the dictionary, depending on whether the string is larger or smaller than the alphabet.
-* **Time Complexity**: The algorithm has time complexity of `O(n)`, where `n` is the length of the input string, because we traverse the string exactly once.
+* **Space Complexity**: The algorithm has space complexity of $O(min(m, n))$, where $n$ is the length of the input string and $m$ is the size of the alphabet, because in the worst case we can store up to $n$ or $m$ elements in the dictionary, depending on whether the string is larger or smaller than the alphabet.
+* **Time Complexity**: The algorithm has time complexity of $O(n)$, where $n$ is the length of the input string, because we traverse the string exactly once.
 * The implementation prioritizes readability by using clear variable names (`start_idx`, `max_len`) and straightforward check-up and update logic. It leverages Python’s dictionary for efficient lookups, avoiding nested loops, and the `max()` function, to keep the solution concise.

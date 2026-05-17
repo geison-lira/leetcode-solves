@@ -11,6 +11,6 @@ Given a string `s`, the optimal solution utilizes a Python Dictionary to build a
 By the end of the iterations, the stack should be empty for a valid string, meaning all brackets were correctly closed, if it's not empty, then the string has an invalid bracket order.
 
 ### Complexities and Clarity
-* **Space Complexity**: The algorithm has space complexity of `O(n)`, where `n` is the length of the input string, because we can store up to `n` elements in the stack.
-* **Time Complexity**: The algorithm has time complexity of `O(n)`, where `n` is the length of the input string, because we iterate through the string once and perform constant-time operations.
+* **Space Complexity**: The algorithm has space complexity of $O(n)$, where $n$ is the length of the input string, because in the worst case we can store up to $n$ elements in the stack.
+* **Time Complexity**: The algorithm has time complexity of $O(n)$, where $n$ is the length of the input string, because we iterate through the string once and perform constant-time operations.
 * The implementation prioritizes readability by using clear variable names (`stack`, `mapping`) and straightforward control flow. It leverages Python’s dictionary for efficient lookups, avoiding nested loops and keeping the solution concise.

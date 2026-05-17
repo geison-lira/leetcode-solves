@@ -11,6 +11,6 @@ Given a string `s`, the optimal solution utilizes a Python Dictionary to build a
 Lastly, `prev` is updated to the current value `curr` to be used in the next iteration.
 
 ### Complexities and Clarity
-* **Space Complexity**: The algorithm has space complexity of `O(1)`, because the lookup dictionary only stores the Roman numerals and its corresponding decimal values, which is a constant amount of space.
-* **Time Complexity**: The algorithm has time complexity of `O(n)`, where `n` is the length of the input string, because we iterate through the string once and perform constant-time lookups.
+* **Space Complexity**: The algorithm has space complexity of $O(1)$, because the lookup dictionary only stores the Roman numerals and its corresponding decimal values, which is a constant amount of space.
+* **Time Complexity**: The algorithm has time complexity of $O(n)$, where $n$ is the length of the input string, because we iterate through the string once and perform constant-time lookups.
 * The implementation prioritizes readability by using clear variable names (`num`, `prev`) and straightforward control flow. It leverages Python’s dictionary for efficient lookups, avoiding nested loops and keeping the solution concise.

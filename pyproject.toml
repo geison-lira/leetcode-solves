@@ -1,0 +1,19 @@
+[project]
+name = "leetcode-solves"
+version = "0.1.0"
+description = "To store and share LeetCode problems solutions"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
+]
+
+[tool.ruff]
+target-version = "py312"
+indent-width = 4
+
+[tool.ruff.format]
+indent-style = "space"
